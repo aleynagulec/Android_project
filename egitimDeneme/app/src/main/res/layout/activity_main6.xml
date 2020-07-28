@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#b3a3c3f4"
+    tools:context=".Main6Activity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/maviarkaplan"
+            android:onClick="ses1"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/maviarkaplan"
+            android:onClick="ses2"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/maviarkaplan"
+            android:onClick="ses3"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/morarkaplan"
+            android:onClick="ses4"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/turuncuarkaplan"
+            android:onClick="ses5"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/pembearkaplan"
+            android:onClick="ses6"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/yesilarkaplan"
+            android:onClick="ses7"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/yesilarkaplan"
+            android:onClick="ses8"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <Button
+            android:layout_margin="10dp"
+            android:background="@drawable/pembearkaplan"
+            android:onClick="ses9"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+    </LinearLayout>
+
+</LinearLayout>
